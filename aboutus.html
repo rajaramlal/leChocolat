@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
 </head>
 
@@ -22,12 +23,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href= "#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html"><span class="fa fa-info fa-lg"></span> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+                </li>
             </div>
         </div>
     </nav>
@@ -64,7 +71,7 @@
                 <p>Nulla ultrices diam at tortor volutpat, <em>et facilisis justo facilisis</em>. Phasellus dignissim
                     euismod mi eget dignissim. Sed eget consequat urna. </p>
             </div>
-            <div>
+            <div class= "col col-sm-6">
             </div>
         </div>
 
@@ -73,7 +80,7 @@
             <div class="col-12">
                 <h2>Corporate Leadership</h2>
                 <h3>Jim Alcon <small>Chief Executive Officer </small></h3>
-                <p>Jim Alcon is the CEO of our company. He is responsible for the policy and strategy of our company.
+                <p class = "col d-none d-md-block">Jim Alcon is the CEO of our company. He is responsible for the policy and strategy of our company.
                 </p>
                 <h3>Bill Peterson <small>Chief Financial Officer </small></h3>
                 <p>Bill Peterson is the CFO of our company. He is responsible for all the financial decisions of our
@@ -86,6 +93,45 @@
                     ideas in our products. </p>
             </div>
         </div>
+        <div class="row row-content">
+            <div class="col-12 col-sm-9">
+                <h2> Create your milk chocolate!</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <caption>This recipe makes a bar of about 100g.</caption>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Igredients</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cocoa butter</td>
+                                <td>50 g</td>
+                            </tr>
+                            <tr>
+                                <td>Icing sugar</td>
+                                <td>50 g</td>
+                            </tr>
+                            <tr>
+                                <td>Milk powder (Full fat)</td>
+                                <td>25 g</td>
+                            </tr>
+                            <tr>
+                                <td>Cocoa powder (Unsweetended)</td>
+                                <td>13 g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-3">
+            </div>
+        </div>
+    </div>
+    </div>
 
     </div>
 
@@ -107,19 +153,26 @@
                         121, Clear Wave Road<br>
                         Clear Wave Road, Aloha<br>
                         HAWAII<br>
-                        Tel.: +987 6543 2100<br>
-                        Fax: +987 6543 2101<br>
-                        Email: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
+                        <i class="fa fa-phone fa-lg"></i>: +987 6543 2100 <br>
+                        <i class="fa fa-fax fa-lg"></i>: +987 6543 2101 <br>
+                        <i class="fa fa-envelope fa-lg"></i>:
+                        <a href="mailto: chocolat@nomail.net"> chocolat@nomail.net </a>
                     </address>
                 </div>
                 <div class="col-sm align-self-center">
                     <div style="text-align:center">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:">
+                            <i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
